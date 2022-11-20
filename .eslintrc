@@ -35,6 +35,10 @@
       "react-hooks/exhaustive-deps": "warn",
       "arrow-body-style": [0],
     "prefer-arrow-callback": [0],
+    "eslint-disable-next-line":[0],
+    "react/self-closing-comp":[0],
+    "react/function-component-definition":[0],
+    "no-console":"off",
     "import/no-unresolved": [
       2, 
       { "caseSensitive": false }

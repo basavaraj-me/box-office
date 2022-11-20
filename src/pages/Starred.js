@@ -1,9 +1,10 @@
 import React from 'react'
+import MainPageLayout from '../components/MainPageLayout'
 
 // eslint-disable-next-line react/function-component-definition
 const Starred = () => {
   return (
-    <div>This is STARRED Page</div>
+    <MainPageLayout>This is STARRED Page</MainPageLayout>
   )
 }
 
