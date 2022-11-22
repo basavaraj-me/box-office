@@ -44,7 +44,6 @@ const Home = () => {
   const onRadioChange = (ev) => {
     setSearchOption(ev.target.value);
   }
-console.log(searchOption);
 
   return (
     <MainPageLayout>
