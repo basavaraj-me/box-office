@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{memo} from 'react';
 import styled from 'styled-components';
 
 
@@ -65,4 +65,4 @@ const CostomRadio = ({lable, ...restProps}) => {
   )
 }
 
-export default CostomRadio;
+export default memo(CostomRadio);
